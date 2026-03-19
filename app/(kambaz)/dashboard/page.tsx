@@ -62,9 +62,9 @@ export default function Dashboard() {
               id="wd-update-course-click"> Update </button>
           </h5>
           <br />
-          <FormControl value={course.name} className="mb-2"
+          <FormControl as="textarea" value={course.name} className="mb-2"
             onChange={(e) => setCourse({ ...course, name: e.target.value })} />
-          <FormControl value={course.description} rows={3}
+          <FormControl as="textarea" value={course.description} rows={3}
             onChange={(e) => setCourse({ ...course, description: e.target.value })} />
           <hr />
         </>
