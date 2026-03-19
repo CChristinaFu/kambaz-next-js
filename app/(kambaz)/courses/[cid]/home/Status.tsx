@@ -4,11 +4,10 @@ import { FaCheckCircle } from "react-icons/fa";
 import { BiImport } from "react-icons/bi";
 import { LiaFileImportSolid } from "react-icons/lia";
 import { Button } from "react-bootstrap";
-import { HiOutlineSpeakerphone } from "react-icons/hi";
-import { IoHomeOutline } from "react-icons/io5";
-import { MdOutlineAnalytics } from "react-icons/md";
-import { IoNotificationsOutline } from "react-icons/io5";
+import { IoMdHome } from "react-icons/io";
+import { RiBarChart2Fill } from "react-icons/ri";
 import { FaBullhorn } from "react-icons/fa6";
+import { FaBell } from "react-icons/fa";
 
 export default function CourseStatus() {
  return (
@@ -22,19 +21,21 @@ export default function CourseStatus() {
          <Button variant="success" size="lg" className="w-100">
            <FaCheckCircle className="me-2 fs-5" /> Publish </Button> </div>
      </div>
+
      <br />
      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
        <BiImport className="me-2 fs-5" /> Import Existing Content </Button>
+
      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
        <LiaFileImportSolid className="me-2 fs-5" /> Import from Commons </Button>
 
     <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
-        <IoHomeOutline className="me-2 fs-5" />
+        <IoMdHome className="me-2 fs-5" />
         Choose Home Page
       </Button>
 
       <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
-        <HiOutlineSpeakerphone className="me-2 fs-5" />
+        <RiBarChart2Fill className="me-2 fs-5" />
         View Course Stream
       </Button>
 
@@ -44,12 +45,12 @@ export default function CourseStatus() {
       </Button>
 
       <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
-        <MdOutlineAnalytics className="me-2 fs-5" />
+        <RiBarChart2Fill className="me-2 fs-5" />
         New Analytics
       </Button>
 
       <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
-        <IoNotificationsOutline className="me-2 fs-5" />
+        <FaBell className="me-2 fs-5" />
         View Course Notifications
       </Button>
    </div> );}

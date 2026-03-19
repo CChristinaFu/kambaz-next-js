@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "A101",
+    "title": "Propulsion Assignment",
+    "course": "RS101",
+    "description": "Analyze rocket propulsion mechanisms and calculate thrust-to-weight ratios for various engine configurations.",
+    "points": 100,
+    "dueDate": "2024-05-13T23:59",
+    "availableFrom": "2024-05-06T00:00",
+    "availableUntil": "2024-05-20T23:59"
+  },
+  {
+    "_id": "A102",
+    "title": "Combustion Analysis",
+    "course": "RS101",
+    "description": "Study combustion processes in rocket engines and evaluate fuel efficiency across different propellant types.",
+    "points": 100,
+    "dueDate": "2024-05-20T23:59",
+    "availableFrom": "2024-05-13T00:00",
+    "availableUntil": "2024-05-27T23:59"
+  },
+  {
+    "_id": "A103",
+    "title": "Nozzle Design Project",
+    "course": "RS101",
+    "description": "Design and optimize a rocket nozzle for maximum performance using convergent-divergent principles.",
+    "points": 150,
+    "dueDate": "2024-05-27T23:59",
+    "availableFrom": "2024-05-20T00:00",
+    "availableUntil": "2024-06-03T23:59"
+  },
+  {
+    "_id": "A201",
+    "title": "Aerodynamics Quiz",
+    "course": "RS102",
+    "description": "Test your understanding of fundamental aerodynamic concepts including lift, drag, and fluid dynamics.",
+    "points": 50,
+    "dueDate": "2024-05-13T23:59",
+    "availableFrom": "2024-05-06T00:00",
+    "availableUntil": "2024-05-20T23:59"
+  },
+  {
+    "_id": "A202",
+    "title": "Flow Analysis",
+    "course": "RS102",
+    "description": "Analyze subsonic and supersonic flow patterns over various airfoil shapes using computational methods.",
+    "points": 100,
+    "dueDate": "2024-05-20T23:59",
+    "availableFrom": "2024-05-13T00:00",
+    "availableUntil": "2024-05-27T23:59"
+  },
+  {
+    "_id": "A203",
+    "title": "Heating Analysis",
+    "course": "RS102",
+    "description": "Evaluate aerodynamic heating effects on spacecraft during re-entry and propose thermal protection solutions.",
+    "points": 100,
+    "dueDate": "2024-05-27T23:59",
+    "availableFrom": "2024-05-20T00:00",
+    "availableUntil": "2024-06-03T23:59"
+  },
+  {
+    "_id": "A301",
+    "title": "Structural Design Task",
+    "course": "RS103",
+    "description": "Design a spacecraft structural component considering material properties, load conditions, and safety factors.",
+    "points": 100,
+    "dueDate": "2024-05-13T23:59",
+    "availableFrom": "2024-05-06T00:00",
+    "availableUntil": "2024-05-20T23:59"
+  },
+  {
+    "_id": "A302",
+    "title": "Orbital Calculations",
+    "course": "RS103",
+    "description": "Calculate orbital parameters including velocity, period, and delta-v requirements for a mission to Mars.",
+    "points": 150,
+    "dueDate": "2024-05-20T23:59",
+    "availableFrom": "2024-05-13T00:00",
+    "availableUntil": "2024-05-27T23:59"
+  },
+  {
+    "_id": "A303",
+    "title": "Systems Engineering Exam",
+    "course": "RS103",
+    "description": "Comprehensive exam covering spacecraft subsystems including power, thermal, communications, and propulsion.",
+    "points": 200,
+    "dueDate": "2024-05-27T23:59",
+    "availableFrom": "2024-05-20T00:00",
+    "availableUntil": "2024-06-03T23:59"
+  }
+]

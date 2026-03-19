@@ -87,11 +87,15 @@ export default function Lab2() {
         <Flex/>
         <MediaQueriesDemo/>
         <ReactIconsSampler/>
-        <BootstrapGrids/>
-        <ScreenSizeLabel/>
-        <BootstrapTables/>
-        <BootstrapLists/>
-        <BootstrapForms/>
-        <BootstrapNavigation/>
+            <Container>
+          <h2>Lab 2 - Cascading Style Sheets</h2>
+          <h3>Styling with the STYLE attribute</h3>
+          <BootstrapGrids/>
+          <ScreenSizeLabel/>
+          <BootstrapTables/>
+          <BootstrapLists/>
+          <BootstrapForms/>
+          <BootstrapNavigation/>
+        </Container>
       </Container>
     </div> );}

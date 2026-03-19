@@ -1,3 +1,4 @@
+
 p#wd-id-selector-1 {
  background-color: red;
  color: white;
@@ -10,12 +11,18 @@ p#wd-id-selector-2 {
  background-color: yellow;
  color: blue;
 }
+
 .wd-selector-1 .wd-selector-3 {
-   background-color: red;
+   background-color: red; /* refers to .wd-selector-3 as a some descendant of .wd-selector-1   */
+
    color: white; }
 .wd-selector-2 > .wd-selector-3 > .wd-selector-4 {
    background-color: yellow;
-   color: blue;  }
+   color: blue;  } /* refers to .wd-selector-4 as a direct child
+   of .wd-selector-3 which is a direct child
+   of .wd-selector-2                 */
+
+
 .some-css-selector {
    color: blue;
 }

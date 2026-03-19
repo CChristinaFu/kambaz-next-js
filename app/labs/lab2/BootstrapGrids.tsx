@@ -38,7 +38,7 @@ export default function BootstrapGrids(){
                 </Row>
             </div>
             <div id="wd-bs-responsive-dramatic">
-            <h2>Responsive grid system</h2>
+            <h2>Responsive grid system - Dramatic</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={3} xl={2} xxl={1} className="bg-warning">
                     <h4>1</h4></Col>
