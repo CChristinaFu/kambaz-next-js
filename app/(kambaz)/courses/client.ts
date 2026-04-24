@@ -7,7 +7,7 @@ const COURSES_API = `${HTTP_SERVER}/api/courses`;
 const MODULES_API = `${HTTP_SERVER}/api/modules`;
 const USERS_API = `${HTTP_SERVER}/api/users`;
 
-// ===== Courses (from 5.4.5) =====
+
 export const fetchAllCourses = async () => {
   const { data } = await axios.get(COURSES_API);
   return data;
@@ -41,7 +41,7 @@ export const updateCourse = async (course: any) => {
   return data;
 };
 
-// ===== Modules (new for 5.4.6) =====
+
 export const findModulesForCourse = async (courseId: string) => {
   const response = await axiosWithCredentials.get(
     `${COURSES_API}/${courseId}/modules`
@@ -70,4 +70,5 @@ export const updateModule = async (module: any) => {
     module
   );
   return data;
+
 };
